@@ -6,8 +6,22 @@ app = Flask(__name__, static_folder="imgs", static_url_path="/imgs")
 
 
 @app.route("/")
-def index():
-    md_text = Path("app/content.md").read_text(encoding="utf-8")
+def __index():
+    md_text = Path("markdown/index.md").read_text(encoding="utf-8")
+    html = markdown.markdown(md_text, extensions=["fenced_code", "tables"])
+    return render_template("layout.html", content=html)
+
+
+@app.route("/midterm")
+def __midterm():
+    md_text = Path("markdown/content_midterm.md").read_text(encoding="utf-8")
+    html = markdown.markdown(md_text, extensions=["fenced_code", "tables"])
+    return render_template("layout.html", content=html)
+
+
+@app.route("/final")
+def __final():
+    md_text = Path("markdown/content_final.md").read_text(encoding="utf-8")
     html = markdown.markdown(md_text, extensions=["fenced_code", "tables"])
     return render_template("layout.html", content=html)
 
