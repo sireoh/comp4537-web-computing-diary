@@ -92,7 +92,7 @@
 ---
 
 # Front (Sections 1-3)
-![cheatsheet_front](imgs/final/cheatsheet_front.jpg)
+![cheatsheet_front](imgs/final/cheatsheet_front.png)
 
 # Back (Sections 4-6)
-![cheatsheet_back](imgs/final/cheatsheet_back.jpg)
+![cheatsheet_back](imgs/final/cheatsheet_back.png)
