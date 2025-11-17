@@ -57,6 +57,38 @@
     - SERVER CODE
     - CLIENT CODE
 
+### Section 7:
+- Securing API & Async JS
+- Async Ops
+- Promise Chain
+- Why Auth
+- Leak Prevention
+- PWD Hashing
+- Auth Types
+- Client XHR
+- CORS
+
+### Section 8:
+- HTTPOnly Cookies
+- SRV Checks
+- PUB/Priv Keys
+- RESTful
+- Verbs
+- Status Code
+- Use Cases
+- Get / Post
+- Microservices
+- Why?
+
+### Section 9:
+- AI Trends
+- Epress
+- SRV
+- Post Create
+
+### Section 10:
+- MYSQL Pool
+
 ---
 
 # Front (Sections 1-3)
